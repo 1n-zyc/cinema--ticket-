@@ -26,7 +26,7 @@ function updateSelectedCount() {
 
     setMovieData(movieSelect.selectedIndex, movieSelect.value) 
 }
-// 从localStorage获取数据并填充UI  (可以忽略)
+
 function populateUI() {
     // ???
     const selectedSeats = JSON.parse(localStorage.getItem('selectedSeats')) 
